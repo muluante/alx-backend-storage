@@ -1,4 +1,5 @@
 -- Creates a table users with id, email and name attributes
+DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users (
 	id INT NOT NULL AUTO_INCREMENT,
 	email VARCHAR(255) NOT NULL UNIQUE,
